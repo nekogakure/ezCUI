@@ -1,6 +1,9 @@
 #include "ez_cui.h"
 #include <stdio.h>
 #include <string.h>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 /**
  * @def MAX_COMMANDS
@@ -65,6 +68,14 @@ void c_set_author(const char *author) {
     author_str = author;
 }
 
+void c_init() {
+#ifdef _WIN32
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
+#endif
+
+}
+
 /**
  * @fn help_action
  * @brief ヘルプメッセージを表示するアクション
@@ -74,7 +85,7 @@ void c_set_author(const char *author) {
 static void help_action(void *context, struct args *args) {
     int max_name_len = 4; // "name" の長さ
     for (int i = 0; i < command_count; ++i) {
-        int len = strlen(commands[i]->name);
+        const int len = strlen(commands[i]->name);
         if (len > max_name_len) max_name_len = len;
     }
 

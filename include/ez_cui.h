@@ -1,7 +1,11 @@
+// ReSharper disable CppUnusedIncludeDirective
 #ifndef EZ_CUI_H
 #define EZ_CUI_H
 
 #include "helper.h"
+#include "util.h"
+
+void c_init();
 
 void c_register_command(command_t * cmd);
 

@@ -10,4 +10,4 @@ add_library(ez_cui STATIC src/ez_cui.c
         include/util.h
         src/util.c)
 link_libraries(ez_cui)
-add_executable(tests example/all_test.c)
+add_executable(tests example/main.c)
