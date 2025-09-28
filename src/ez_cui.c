@@ -1,4 +1,4 @@
-#include "../include/ez_cui.h"
+#include "ez_cui.h"
 #include <stdio.h>
 #include <string.h>
 

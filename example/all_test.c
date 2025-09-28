@@ -1,4 +1,4 @@
-#include "../include/ez_cui.h"
+#include "ez_cui.h"
 #include <stdio.h>
 
 void hello_action(void *context, struct args *args) {
