@@ -15,6 +15,9 @@ void test(void *context, struct args *args) {
     const char* fruits[] = {"apple", "orange", "banana"};
     const int selected = menu_select("Which do you like fruit?", fruits, 3);
     INFO("you select: %s", fruits[selected]);
+
+    char *input_text = input_field("this is a text box", 256);
+    INFO("you input: %s", input_text);
 }
 
 int main(const int argc, char **argv) {

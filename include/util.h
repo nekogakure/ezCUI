@@ -42,19 +42,8 @@
 #define DEBUG(format, ...) ;
 #endif // DEV
 
-/**
- * @brief 文字列を下線付きで表示
- */
 void underline(const char* str);
 
-/**
- * @fn menu_select
- * @brief メニュー選択を表示し、ユーザーの選択を取得
- * @param title メニューのタイトル
- * @param items メニュー項目の配列ポインタ
- * @param count メニュー項目の数
- * @return 選択された項目のインデックス番号
- */
-int menu_select(const char* title, const char* items[], int count);
+char* input_field(const char* prompt, int max_len);
 
 #endif //EZ_CUI_UTIL_H
