@@ -5,7 +5,7 @@ void hello_action(void *context, struct args *args) {
     printf("Hello, ezCUI!\n");
 }
 
-int main(int argc, char **argv) {
+int main(const int argc, char **argv) {
 
     c_set_appname("Test App");
     c_set_author("nekogakure");
