@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easycui_0',['EasyCUI',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['command_20line_20user_20interface_0',['ezCUI - Easy Command Line User Interface',['../index.html',1,'']]]
 ];

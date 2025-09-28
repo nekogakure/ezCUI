@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['how_20to_20use_0',['How to use',['../md__r_e_a_d_m_e.html#autotoc_md1',1,'']]]
+  ['easy_20command_20line_20user_20interface_0',['ezCUI - Easy Command Line User Interface',['../index.html',1,'']]],
+  ['ezcui_20easy_20command_20line_20user_20interface_1',['ezCUI - Easy Command Line User Interface',['../index.html',1,'']]]
 ];

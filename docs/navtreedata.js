@@ -25,15 +25,31 @@
 var NAVTREE =
 [
   [ "ezCUI", "index.html", [
-    [ "EasyCUI", "md__r_e_a_d_m_e.html", [
-      [ "How to use", "md__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "ezCUI - Easy Command Line User Interface", "index.html", "index" ],
+    [ "データ構造", "annotated.html", [
+      [ "データ構造", "annotated.html", "annotated_dup" ],
+      [ "データ構造索引", "classes.html", null ],
+      [ "データフィールド", "functions.html", [
+        [ "全て", "functions.html", null ],
+        [ "変数", "functions_vars.html", null ]
+      ] ]
+    ] ],
+    [ "ファイル", "files.html", [
+      [ "ファイル一覧", "files.html", "files_dup" ],
+      [ "大域各種", "globals.html", [
+        [ "全て", "globals.html", null ],
+        [ "関数", "globals_func.html", null ],
+        [ "変数", "globals_vars.html", null ],
+        [ "型定義", "globals_type.html", null ],
+        [ "マクロ定義", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';
