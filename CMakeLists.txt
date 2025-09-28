@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 add_library(ez_cui STATIC src/ez_cui.c
         include/helper.h)
 link_libraries(ez_cui)
-add_executable(tests tests/all_test.c)
+add_executable(tests example/all_test.c)
